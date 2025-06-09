@@ -1,0 +1,148 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+/* header start  */
+header .nav-link{
+     font-family: "Nunito", sans-serif;
+     
+}
+.bi-bag-fill{
+    border: 2px solid rgb(255, 191, 0);
+    padding: 10px 13px;
+    border-radius: 50%;   
+    margin-right: 10px;
+    transition: 0.3s;
+}
+.bi-bag-fill:hover{
+    background-color: rgb(255, 191, 0);
+    /* color: white; */
+}
+.reserve-btn{
+    background-color: rgb(255, 191, 0);
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    transition: 0.3s;
+}
+.reserve-btn:hover{
+    background-color: #fff;
+    border:1px solid rgb(255, 191, 0);
+}
+/* header end  */
+/* main start  */
+main{
+    background-color: antiquewhite;
+}
+/* menu heading start  */
+
+.menu-heading h2{
+    font-family: "MedievalSharp", cursive;
+    text-align: center;
+    font-weight: 600;
+}
+/* menu heading end  */
+/* submenu heading start  */
+
+.submenu-heading ul{
+    list-style: none;
+}
+.submenu-heading ul a{
+     font-family: "Nunito", sans-serif;
+     padding: 5px 10px;
+     border-radius: 50px;
+     border: 2px solid rgb(255, 191, 0);
+     transition: 0.3s;
+     color: black;
+}
+.submenu-heading ul a:hover{
+    background-color:rgb(255, 191, 0);
+    color: white;
+}
+
+/* submenu heading end  */
+
+/* menu-content start  */
+
+.menu-content .menu-item{
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    transition: all 0.6s;
+}
+.menu-content .menu-item:hover{
+    transform: scale(1.1);
+}
+.menu-content .menu-item .bi-star-fill{
+    color: rgb(255, 191, 0);
+}
+.menu-content .menu-item span{
+    border: 2px solid rgb(255, 191, 0);
+    padding: 5px 8px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+.menu-content .menu-item span:hover{
+    background-color: rgb(255, 191, 0);
+    color: white;
+}
+/* menu-content end  */
+/* main end  */
+
+/* footer start  */
+footer{
+    background-color: antiquewhite;
+    position: relative;
+    /* width: max-content; */
+}
+footer::before{
+    content: '';
+    position: absolute   ;
+    width: 100%;
+    height: 1px;
+    background: black;
+    top: 0;
+    left: 0;
+}
+footer h3{
+    font-family:"MedievalSharp", cursive ;
+}
+footer form i{
+    color: rgb(255, 191, 0);
+    
+}
+
+.footer .col-2{
+    width: 150px;
+    margin-right: 70px;
+
+}
+footer input{
+    background-color: antiquewhite;
+}
+.footer-icon i{
+    padding: 4px 9px;
+    border: 1px solid black;
+    border-radius: 50%;
+    transition: 0.3s;
+    font-size: 10px;
+}
+.footer-icon i:hover{
+    background-color: rgb(255, 191, 0);
+}
+.footer-item h4{
+    font-family:"MedievalSharp", cursive ;
+}
+.footer-item a{
+    color: black;
+    text-decoration: none;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.footer-item a:hover{
+    color: rgb(255, 191, 0);
+}
+/* footer end  */
