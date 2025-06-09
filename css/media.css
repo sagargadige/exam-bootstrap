@@ -9,6 +9,10 @@
     .container-xxl{
         max-width: 1320px;
     }
+    .col-xxl-3{
+        width: 25%;
+        padding: 0 15px;
+    }
 }
 /* xl */
 @media (max-width:1399px){
@@ -35,6 +39,19 @@
     .col-md-12{
         width: 100%;
         padding: 0 15px;
+    }
+    .submenu-heading ul{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer-icon{
+        display: flex;
+        flex-direction: row;
+    }
+    .item-1{
+        display: none;
     }
 }
 /* sm */
