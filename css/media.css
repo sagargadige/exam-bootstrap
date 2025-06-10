@@ -53,17 +53,15 @@
     .item-1{
         display: none;
     }
+    .reserve-btn{
+        margin-right: 5px;
+    }
 }
 /* sm */
 @media (max-width:767px){
     .container-sm{
         max-width: 540px;
     }
-    header .nav-item{
-        width: 100%;
-        color: red;
-    }
-    
 }
 /* xs */
 @media (max-width:575px){
