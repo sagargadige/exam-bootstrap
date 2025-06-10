@@ -58,6 +58,9 @@ main{
     text-align: center;
     font-weight: 600;
 }
+html{
+    overflow-x: hidden;
+}
 /* menu heading end  */
 /* submenu heading start  */
 
